@@ -1,0 +1,23 @@
+.upgrade-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#5c8bfb;
+    width:90%;
+    height:60vh;
+    gap:10px;
+    margin:30px 0 0 30px;
+    padding-bottom:10px;
+    border-radius:12px;
+}
+
+.upgrade-container h4{
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size:25px;
+    color:#FFFFFF;
+}
+
+.feature-image{
+    border-radius:5px;
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Sidebar styling */
+.sidebar {
+    /* width: 220px; */
+    /* height: 80vh; */
+    position: fixed;
+    background-color: #FFFFFF;
+    padding: 0 1px 0 20px;
+}
+
+.sidebar-header {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.sidebar-header h2 {
+    font-family: "Rowdies", sans-serif;
+    font-size:26px !important;
+    /* color: #000000; */
+}
+
+.sidebar-icon{
+    margin:0 10px 0 10px;
+    color:#3F77F8;
+}
+
+/* Sidebar link styling */
+.sidebar nav ul li  {
+    display:flex;
+    align-items:center;
+    margin: 12px 0;
+}
+
+.sidebar a{
+    text-decoration:none;
+    padding: 6px 1px 0 3px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    color: #000000;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar a:hover{
+    color:#3F77F8;
+}
+
+.sidebar a.active{
+    color:#3F77F8;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+    width: 200px;
+    }
+
+    .sidebar-header h2 {
+    font-size: 20px;
+    }
+}

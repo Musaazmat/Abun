@@ -1,0 +1,28 @@
+.sidebar-footer{
+    position: Fixed;
+    top:560px;
+    padding: 8px 0 0 7px;
+    /* gap:10px; */
+    border-top:1px solid #ECECEC;
+}
+
+.sidebar-icon{
+    color: #3F77F8;
+}
+.sidebar-footer a{
+    text-decoration:none;
+    font-size: 13px;
+    color:#000000;
+    cursor:pointer;
+    font-family: "Bricolage Grotesque", sans-serif;    
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-footer a.hover{
+    color:#3F77F8;
+}
+
+.sidebar-footer a.active{
+    color:#3F77F8;
+}

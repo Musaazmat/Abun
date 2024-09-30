@@ -1,0 +1,68 @@
+.profile-container{
+    width: 100%;
+    height: 90vh;
+    font-family: "Bricolage Grotesque", sans-serif;
+    /* background: aquamarine; */
+    display:flex;
+    flex-direction:column
+}
+
+.header-name h4{
+    font-size:35px;
+    color:#969696;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 .5em 1em -.125em #0000001a, 0 0 0 1px #00000005;
+    color: #969696;
+    max-width: 100%;
+    position: relative;
+    margin-top:18px;
+}
+
+.card .card-header{
+    border-bottom:2px solid #EAEAEA;
+}
+
+.card h2{
+    font-size:15px;
+    margin:10px 0 10px 15px;
+}
+
+.card-content{
+    width:100%;
+    height:70vh;
+    /* background: aquamarine; */
+    padding:13px 0 10px 20px;
+    display:flex;
+    flex-direction:column;
+    gap: 25px;
+    font-size:13px;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.content-one, .content-two, .content-three{
+    line-height:2
+}
+
+.content-one input[type="text"], .content-two input[type="email"], .content-three input[type="time"]{
+    width:50%;
+    height:30px;
+    outline:none;
+    border-radius:4px;
+    border: 1px solid #000000;
+}
+
+.save-button{
+    width:200px;
+    height:40px;
+    font-size:15px;
+    color:white;
+    background-color:#2BC482;
+    margin-top:18px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}

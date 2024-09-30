@@ -1,0 +1,31 @@
+.tutorial-container{
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0000001a;
+    height: 93vh;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    font-family: "Bricolage Grotesque", sans-serif;
+
+}
+
+.tutorial-container .video-item{
+    display:flex;
+    flex-direction:column;
+    cursor: pointer;
+    text-align: center;
+    width:320px;
+    margin-top:80px;
+    gap:3px;
+}
+
+.tutorial-container .video-item img{
+    border-radius:4px;
+
+}
+.tutorial-container .video-item h3{
+    text-align:center;
+    color: #4A4A4A;
+    margin-right:70px;
+}
